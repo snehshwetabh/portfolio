@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #ecf0f1;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .profile-container {
+            background-color: #2c3e50;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 500px;
+            text-align: center;
+            color: #ecf0f1;
+        }
+
+            .profile-container h1 {
+                font-size: 30px;
+                margin-bottom: 15px;
+                color: #e67e22;
+            }
+
+            .profile-container p {
+                margin: 10px 0;
+                font-size: 18px;
+                line-height: 1.6;
+            }
+
+            .profile-container .skills,
+            .profile-container .internship {
+                margin-top: 25px;
+            }
+
+            .profile-container h2 {
+                font-size: 22px;
+                margin-bottom: 15px;
+                color: #e67e22;
+                border-bottom: 2px solid #e67e22;
+                display: inline-block;
+                padding-bottom: 5px;
+            }
+
+            .profile-container .skills ul,
+            .profile-container .internship ul {
+                list-style-type: none;
+                padding: 0;
+            }
+
+            .profile-container .skills li,
+            .profile-container .internship li {
+                background-color: #34495e;
+                color: #ecf0f1;
+                padding: 10px;
+                margin-bottom: 8px;
+                border-radius: 8px;
+                font-weight: bold;
+                transition: transform 0.3s;
+            }
+
+                .profile-container .skills li:hover,
+                .profile-container .internship li:hover {
+                    transform: translateY(-5px);
+                    background-color: #e67e22;
+                }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <h1>Shwetabh Sneh</h1>
+        <p><strong>College:</strong> DSCE,Bangalore</p>
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Java</li>
+                <li>MySQL</li>
+                <li>Tableau</li>
+            </ul>
+        </div>
+        <div class="internship">
+            <h2>Internship</h2>
+            <ul>
+                <li>Dover</li>
+                <li>HyreSnap</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
